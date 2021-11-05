@@ -3,8 +3,10 @@
 :root{
     --main-font-poppins345: 'Poppins', sans-serif;
     --main-color: hsla(32, 100%, 45%, 1);
-
+    --textColor: hsla(0, 0%, 0%, 0.9);
+    --DefaultColor: hsla(173, 96%, 100%, 0.9);
     --navBG: hsla(32, 100%, 77%, 1);
+
 }
 
 * {
@@ -16,21 +18,24 @@
 body {
 
     background: hsla(23, 35%, 100%, 0.52);
+    color: var(--textColor);
     min-height: 100vh;
     font-family: var(--main-font-poppins345);
+
+    overflow-x: hidden;
 }
 
 /* header styles */
 
 nav {
 
-    border: 1px solid pink;
     height: 4rem;
     width: 100%;
     padding: 0 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 ul {
@@ -38,7 +43,7 @@ ul {
     justify-content: space-between;
     width: 13%;
     padding: 2em;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1rem;
     list-style-type: none;
 }
@@ -48,14 +53,9 @@ a{
     position: absolute;
     font-size: 1rem;
     top: 20px;
-    color: black;
+    color: var(--textColor);
     text-decoration: none;
 
-}
-
-nav .fa{
-
-    font-size: 1.5em;
 }
 
 a:hover{
@@ -75,9 +75,63 @@ a:focus{
 }
 
 .header__title{
-    
+
     display: none;
+
 }
+
+nav .fa{
+
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+body.darkmode{
+
+    cursor: pointer;
+    background-color: #22272e;
+
+    --textColor: hsla(0, 0%, 99%, 0.9);
+}
+
+/*dark mode */
+
+/*test*/
+
+input[type="checkbox"].switch{
+    appearance: none;
+    width: 3em;
+    height: 1.5em;
+    background: #ddd;
+    border-radius: 3em;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+input[type="checkbox"].switch:after{
+    position: absolute;
+    content: "";
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 .25em rgba(0,0,0,.3);
+    transform: scale(.7);
+    left: 0;
+    transition: all .2s ease-in-out;
+}
+
+input[type="checkbox"].switch:checked:after{
+    left: calc(100% - 1.5em);
+}
+
+input[type="checkbox"].switch:checked{
+    background: var(--main-color);
+
+}
+
 
 @media screen and (max-width: 995px) {
     
@@ -116,4 +170,76 @@ a:focus{
         top: 60px;
         left: 0;
     }
+}
+
+/*=====================================*/
+
+.home__introduction{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    gap: 1rem;
+    padding: 0 5rem;
+}
+
+.home__inside__container{
+    width: 40%;
+}
+
+.home__inside__container > *{
+    
+    margin-bottom: 2rem;
+}
+
+h1{
+    
+    font-size: 4rem;
+}
+
+h2 {
+
+    font-size: 3rem;
+
+}
+
+p {
+
+    text-align: center start;
+    font-size: 1.5rem;
+}
+
+.name {
+
+    color: var(--main-color);
+}
+
+.image__container img {
+
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+@media screen and (max-width: 995px) {
+
+    
+    .home__introduction{
+
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .home__inside__container{
+
+        text-align: center;
+        width: 100%;
+        order: 1;
+    }
+
+    
 }
