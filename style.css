@@ -228,9 +228,11 @@ p {
     
     .home__introduction{
 
-        height: 100vh;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 0 2rem;
 
     }
 
@@ -239,6 +241,19 @@ p {
         text-align: center;
         width: 100%;
         order: 1;
+    }
+
+    h1{
+
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+    p{
+
+        font-size: 1rem;
     }
 
     
