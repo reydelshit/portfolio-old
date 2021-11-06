@@ -115,7 +115,7 @@ input[type="checkbox"].switch:after{
     width: 1em;
     height: 1em;
     border-radius: 50%;
-    background: #fff;
+    background: var(--main-color);
     box-shadow: 0 0 .25em rgba(0,0,0,.3);
     transform: scale(.7);
     left: 0;
@@ -127,7 +127,7 @@ input[type="checkbox"].switch:checked:after{
 }
 
 input[type="checkbox"].switch:checked{
-    background: var(--main-color);
+    background: var(--DefaultColor);
 
 }
 
