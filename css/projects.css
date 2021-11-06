@@ -1,0 +1,129 @@
+@import url('style.css');
+
+:root{
+    --main-font-poppins345: 'Poppins', sans-serif;
+    --main-color: hsla(32, 100%, 45%, 1);
+    --textColor: hsla(0, 0%, 0%, 0.9);
+    --DefaultColor: hsla(173, 96%, 100%, 0.9);
+    --navBG: hsla(32, 100%, 77%, 1);
+
+}
+
+.projects{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.projects__header {
+    margin-bottom: 2rem;
+}
+
+.projects__container{
+    
+    width: 65%;
+    padding: 2rem;
+}
+
+.projects__items{
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.items{
+
+    border-radius: 8px;
+    box-shadow: 0 0 8px var(--navBG);
+    height: 18rem;
+    width: 25rem;
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 1260px) {
+    
+
+    .projects__container{
+    
+        width: 100%;
+    }
+
+    .projects__items{
+        display: grid;
+        grid-template-columns: 1fr; 
+        padding: 0;
+    }
+
+    .items{
+        width: 100%;
+    }
+
+}
+
+.container__item{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.item__header{
+
+    padding: 1rem 1rem 0 1rem;
+}
+
+.item__header > *{
+    
+    padding-bottom: 1.5rem;
+
+}
+.item__header h2, .item__header p{
+
+    text-align: start;
+    font-size: 0.8rem;
+}
+
+
+.item__header h2{
+
+    text-align: start;
+    font-size: 2rem;
+}
+
+.item__btn{
+    width: 100%;
+    height: 100%;
+    gap: 1px;
+    display: flex;
+}
+
+.item__btn button{
+
+    border: none;
+    cursor: pointer;
+    width: 15rem;
+    background: transparent;
+    font-family: var(--main-font-poppins345);
+    font-weight: 500;
+    color: var(--textColor);
+    box-shadow: inset 0 0 0 0 var(--main-color);
+    transition: ease-in 0.2s;
+}
+
+
+.item__btn button:hover{
+
+    color: var(--main-color);
+}
