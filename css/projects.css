@@ -20,7 +20,7 @@
 
 }
 
-.projects__header {
+.projects__header, .projects__header h2{
     margin-bottom: 2rem;
 }
 
@@ -52,6 +52,10 @@
 
 @media screen and (max-width: 1260px){
     
+
+    .projects__header {
+        text-align: start;
+    }
 
     .projects__container{
     
