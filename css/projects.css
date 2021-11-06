@@ -1,13 +1,6 @@
 @import url('style.css');
 
-:root{
-    --main-font-poppins345: 'Poppins', sans-serif;
-    --main-color: hsla(32, 100%, 45%, 1);
-    --textColor: hsla(0, 0%, 0%, 0.9);
-    --DefaultColor: hsla(173, 96%, 100%, 0.9);
-    --navBG: hsla(32, 100%, 77%, 1);
 
-}
 
 .projects{
 
@@ -26,7 +19,7 @@
 
 .projects__container{
     
-    width: 65%;
+    width: 40rem;
     padding: 2rem;
 }
 
