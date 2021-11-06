@@ -107,6 +107,16 @@
     font-size: 2rem;
 }
 
+.lang__used{
+
+    color: var(--main-color);
+}
+
+.lang__sepator{
+
+    color: var(--textColor);
+}
+
 .item__btn{
     width: 100%;
     height: 100%;
