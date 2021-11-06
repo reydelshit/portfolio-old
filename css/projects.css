@@ -35,8 +35,8 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 2rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
 }
 
 .items{
@@ -50,7 +50,7 @@
 
 
 
-@media screen and (max-width: 1260px){
+@media screen and (max-width: 900px){
     
 
     .projects__header {
