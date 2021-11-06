@@ -31,39 +31,39 @@ nav {
 
     height: 4rem;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* box-shadow: 1px 0 1px var(--navBG); */
 
 }
 
 ul {
     display: flex;
     justify-content: space-between;
-    width: 13%;
+    width: 15rem;
     padding: 2em;
     font-weight: 400;
     font-size: 1rem;
     list-style-type: none;
+    
 }
 
-a{
+a{  
     
-    position: absolute;
     font-size: 1rem;
-    top: 20px;
     color: var(--textColor);
     text-decoration: none;
+    width: 5rem;
+    text-align: center;
+    background-color: transparent;
 
+    transition: 0.1s ease-in;
+    border-bottom: 0 solid var(--main-color);
 }
 
-a:hover{
-    
-    padding: 0;
-    border-bottom: 3px solid var(--main-color);
-}
-
+a:hover,
 a:focus{
 
     border-bottom: 3px solid var(--main-color);
@@ -88,7 +88,6 @@ nav .fa{
 
 body.darkmode{
 
-    cursor: pointer;
     background-color: #22272e;
 
     --textColor: hsla(0, 0%, 99%, 0.9);
@@ -100,8 +99,8 @@ body.darkmode{
 
 input[type="checkbox"].switch{
     appearance: none;
-    width: 3em;
-    height: 1.5em;
+    width: 2em;
+    height: 1em;
     background: #ddd;
     border-radius: 3em;
     position: relative;
@@ -113,8 +112,8 @@ input[type="checkbox"].switch{
 input[type="checkbox"].switch:after{
     position: absolute;
     content: "";
-    width: 1.5em;
-    height: 1.5em;
+    width: 1em;
+    height: 1em;
     border-radius: 50%;
     background: #fff;
     box-shadow: 0 0 .25em rgba(0,0,0,.3);
@@ -124,7 +123,7 @@ input[type="checkbox"].switch:after{
 }
 
 input[type="checkbox"].switch:checked:after{
-    left: calc(100% - 1.5em);
+    left: calc(100% - 1em);
 }
 
 input[type="checkbox"].switch:checked{
@@ -187,7 +186,7 @@ input[type="checkbox"].switch:checked{
 }
 
 .home__inside__container{
-    width: 40%;
+    width: 45%;
 }
 
 .home__inside__container > *{
@@ -202,7 +201,6 @@ h1{
 h2 {
 
     font-size: 3rem;
-
 }
 
 p {
@@ -211,11 +209,29 @@ p {
     font-size: 1.5rem;
 }
 
-.name {
+.name a{
 
     color: var(--main-color);
+    font-size: 3rem;
 }
 
+.icons__yow{
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+}
+
+.icons__yow a{
+    font-size: 2em;
+    padding: 0;
+}
+
+.icons__yow a:hover,
+.icons__yow a:focus
+{
+    border-bottom: unset;
+    color: var(--main-color);
+}
 
 
 @media screen and (max-width: 995px) {
@@ -238,12 +254,18 @@ p {
 
     h1{
 
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     h2{
         font-size: 2rem;
     }
+    
+    .name a{
+
+        font-size: 2rem;
+    }
+
     p{
 
         font-size: 1rem;
