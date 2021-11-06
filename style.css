@@ -91,7 +91,9 @@ nav .fa{
 body.darkmode{
 
     background: #22272e;
+    
     --textColor: hsla(0, 0%, 99%, 0.9);
+    --navBG: hsla(32, 100%, 45%, 1);
 }
 
 /*test*/
@@ -291,7 +293,7 @@ p {
         font-size: 2rem;
     }
     
-    .name a{
+    .name{
 
         font-size: 2rem;
     }
