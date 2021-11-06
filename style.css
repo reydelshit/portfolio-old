@@ -134,6 +134,10 @@ input[type="checkbox"].switch:checked{
 
 @media screen and (max-width: 995px) {
     
+    nav{
+        padding: 0 2rem;
+    }
+
     .ham {
 
         display: block;
@@ -224,6 +228,7 @@ p {
 .icons__yow a{
     font-size: 2em;
     padding: 0;
+    text-align: start;
 }
 
 .icons__yow a:hover,
