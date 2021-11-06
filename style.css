@@ -217,10 +217,17 @@ p {
     font-size: 1.5rem;
 }
 
-.name a{
+.name{
 
     color: var(--main-color);
     font-size: 3rem;
+    transition: ease-in 0.1s;
+}
+
+.name:hover{
+
+    cursor: pointer;
+    border-bottom: 3px solid var(--main-color);
 }
 
 .icons__yow{
@@ -247,6 +254,8 @@ p {
 
     margin-top: -10rem;
     width: 100%;
+    background-attachment: fixed;
+    transition: width ease-in 0.3s;
 }
 
 
