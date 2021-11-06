@@ -181,6 +181,7 @@ input[type="checkbox"].switch:checked{
     align-items: center;
     justify-content: space-between;
     width: 100vw;
+    height: 700px;
     gap: 1rem;
     padding: 0 5rem;
 }
@@ -195,7 +196,6 @@ input[type="checkbox"].switch:checked{
 }
 
 h1{
-    
     font-size: 4rem;
 }
 
@@ -216,12 +216,7 @@ p {
     color: var(--main-color);
 }
 
-.image__container img {
 
-    width: 100%;
-    border-radius: 100%;
-
-}
 
 @media screen and (max-width: 995px) {
 
@@ -231,16 +226,14 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
         padding: 0 2rem;
 
     }
 
     .home__inside__container{
 
-        text-align: center;
+        text-align: start;
         width: 100%;
-        order: 1;
     }
 
     h1{
