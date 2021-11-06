@@ -133,7 +133,7 @@ input[type="checkbox"].switch:checked{
 }
 
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 995px) and (min-width: 255px) {
     
     nav{
         padding: 0 2rem;
@@ -261,7 +261,7 @@ p {
 }
 
 
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 995px) and (min-width: 255px) {
 
     
     .home__introduction{
