@@ -16,7 +16,7 @@
 }
 
 body {
-
+    
     background: hsla(23, 35%, 100%, 0.52);
     color: var(--textColor);
     min-height: 100vh;
@@ -45,11 +45,11 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 15rem;
-    padding: 2em;
+    padding: 0 2rem;
     font-weight: 400;
     font-size: 1rem;
     list-style-type: none;
-    
+
 }
 
 a{  
@@ -87,14 +87,12 @@ nav .fa{
     cursor: pointer;
     font-size: 1.5em;
 }
-
+/*dark mode */
 body.darkmode{
 
     background: #22272e;
     --textColor: hsla(0, 0%, 99%, 0.9);
 }
-
-/*dark mode */
 
 /*test*/
 
@@ -146,6 +144,7 @@ input[type="checkbox"].switch:checked{
         background: transparent;
         color: var(--main-color);
         cursor: pointer;
+
     }
 
     .yow {
@@ -166,13 +165,17 @@ input[type="checkbox"].switch:checked{
 
     .yow.show {
         display: flex;
-        background-color: var(--navBG);
-        width: 100%;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        background-color: var(--navBG);
+        height: 6rem;
+        width: 100%;
+
         position: absolute;
         top: 60px;
         left: 0;
+
     }
 }
 
@@ -191,7 +194,7 @@ input[type="checkbox"].switch:checked{
 }
 
 .home__inside__container{
-    width: 45%;
+    width: 40rem;
 }
 
 .home__inside__container > *{
@@ -240,6 +243,13 @@ p {
 }
 
 
+.image__container img{
+
+    margin-top: -10rem;
+    width: 100%;
+}
+
+
 @media screen and (max-width: 995px) {
 
     
@@ -256,6 +266,11 @@ p {
 
         text-align: start;
         width: 100%;
+    }
+
+    .image__container img{
+
+        display: none;
     }
 
     h1{
