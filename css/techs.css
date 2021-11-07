@@ -47,7 +47,7 @@
     border: 1px solid var(--main-color);
     border-radius: 8px;
     width: 21rem;
-    height: 5rem;
+    height: 4rem;
 
     position: relative;
 }
@@ -61,8 +61,8 @@
 .icons__techs{
 
     position: absolute;
-    top: 10px;
-     left: 15px;
+    top: 15px;
+    left: 15px;
 
 }
 
