@@ -11,3 +11,18 @@ const darkMode = document.querySelector('#switch__dark')
 darkMode.addEventListener('click', (y) => {
     document.body.classList.toggle('darkmode')
 })
+
+
+const vieww = document.querySelector('.viewBTN')
+
+vieww.addEventListener('click', function(){
+    vieww.classList.toggle('view')
+
+    if(vieww.textContent === 'View'){
+        
+        vieww.textContent = `Close`
+    } else {
+        vieww.textContent = `View`
+    }
+    
+})
