@@ -7,6 +7,8 @@
     --DefaultColor: hsla(173, 96%, 100%, 0.9);
     --navBG: hsla(32, 100%, 77%, 1);
 
+
+    --items-color: rgba(223, 220, 220, 0.52);
 }
 
 * {
@@ -110,6 +112,7 @@ body.darkmode{
 
     background: #22272e;
     
+    --items-color: #22272e;
     --textColor: hsla(0, 0%, 99%, 0.9);
     --navBG: hsla(32, 100%, 45%, 1);
 }
@@ -270,10 +273,13 @@ p {
 .icons__yow{
     display: flex;
     justify-content: space-between;
-    width: 8rem;
+    align-items: center;
+    width: 5rem;
 }
 
 .icons__yow a{
+
+    color: var(--textColor);
     font-size: 2em;
     padding: 0;
     text-align: start;

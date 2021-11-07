@@ -13,16 +13,16 @@ darkMode.addEventListener('click', (y) => {
 })
 
 
-const vieww = document.querySelector('.viewBTN')
+// const vieww = document.querySelector('.viewBTN')
 
-vieww.addEventListener('click', function(){
-    vieww.classList.toggle('view')
+// vieww.addEventListener('click', function(){
+//     vieww.classList.toggle('view')
 
-    if(vieww.textContent === 'View'){
-        
-        vieww.textContent = `Close`
-    } else {
-        vieww.textContent = `View`
-    }
+//     if(vieww.textContent === 'View'){
+
+//         vieww.textContent = `Close`
+//     } else {
+//         vieww.textContent = `View`
+//     }
     
-})
+// })
