@@ -19,7 +19,8 @@
 
 body {
     
-    background: rgba(223, 220, 220, 0.52);
+    background: var(--DefaultColor);
+    /* background: rgba(223, 220, 220, 0.52); */
     background-attachment: fixed;
     color: var(--textColor);
     min-height: 100vh;
