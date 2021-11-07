@@ -98,9 +98,11 @@
     
     .techs{
 
+        width: 100%;
         padding: 2em;
     }
     .techs__header{
+
         text-align: start;
     }
     .techs__skill{
