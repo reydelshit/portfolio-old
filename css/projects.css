@@ -48,8 +48,8 @@
 .items{
 
     background: var(--items-color);
-    border-radius: 8px; 
-    box-shadow: 0 0 8px -7px var(--box-shadow-color);
+    border-radius: 10px; 
+    /* box-shadow: 0 0 1px 1px var(--main-color); */
     height: 18rem;
     width: 23rem;
     overflow: hidden;

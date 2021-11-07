@@ -107,6 +107,7 @@ nav .fa{
     cursor: pointer;
     font-size: 1.5em;
 }
+
 /*dark mode */
 body.darkmode{
 
@@ -301,6 +302,18 @@ p {
     transition: width ease-in 0.3s;
 }
 
+.seperator{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    width: 40%;
+    height: 2px;
+    background: var(--main-color);
+
+}
+
 
 @media screen and (max-width: 995px){
 
@@ -342,6 +355,10 @@ p {
     p{
 
         font-size: 1rem;
+    }
+    
+    .seperator{
+        width: 70%;
     }
 
     
