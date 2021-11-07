@@ -34,6 +34,7 @@
     
     width: 40rem;
     padding: 2rem;
+    
 }
 
 .projects__items{
@@ -47,11 +48,12 @@
 
 .items{
 
-    background: var(--items-color);
     border-radius: 10px; 
     height: 18rem;
     width: 23rem;
     overflow: hidden;
+    /* background: hsla(0, 20%, 95%, 0.9); */
+
 }
 
 
@@ -155,14 +157,18 @@
     cursor: pointer;
     width: 15rem;
     background: transparent;
-    font-family: var(--main-font-poppins345);
-    font-weight: 500;
-    color: var(--textColor);
     transition: ease-in 0.2s;
 }
 
+.item__btn button a{
 
-.item__btn button:hover{
+    font-family: var(--main-font-poppins345);
+    font-weight: 500;
+    color: var(--textColor);
+    text-decoration: none;
+}
+
+.item__btn button a:hover{
 
     color: var(--main-color);
 }
