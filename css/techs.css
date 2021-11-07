@@ -3,11 +3,18 @@
 
     width: 100%;
     height: 700px;
+    
+
+}
+
+.techs__container{
+
     display: flex;
+    width: 100%;
     align-items: center;
+    margin: auto;
     flex-direction: column;
     text-align: center;
-
 }
 
 .techs__container > *{
@@ -21,6 +28,7 @@
 .techs__skill{
 
     display: grid;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -73,7 +81,8 @@
 @media screen and (max-width: 995px){
 
     
-     .techs{
+
+    .techs{
 
         width: 100%;
         padding: 2em;
@@ -86,8 +95,14 @@
     .techs__skill{
 
         width: 100%;
+        justify-content: center;
         grid-template-columns: 1fr;
-        padding: 0;
+
+    }
+
+    .techsBro{
+
+        width: 19rem;
     }
 
 } 

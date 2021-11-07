@@ -49,7 +49,6 @@
 
     background: var(--items-color);
     border-radius: 10px; 
-    /* box-shadow: 0 0 1px 1px var(--main-color); */
     height: 18rem;
     width: 23rem;
     overflow: hidden;
