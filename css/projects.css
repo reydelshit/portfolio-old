@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 700px;
     width: 100%;
     text-align: center;
 
@@ -78,7 +79,10 @@
 
 @media screen and (max-width: 900px){
     
+    .projects{
 
+        height: 800px;
+    }
     .projects__header {
         text-align: start;
     }
