@@ -47,17 +47,17 @@ pageTransition.reveal('.image__container', {origin: 'right', delay: 3200})
 pageTransition.reveal('.projects__header', {origin: 'top', delay: 100})
 pageTransition.reveal('.project__item1', {origin: 'left',  delay: 300})
 pageTransition.reveal('.project__item2', {origin: 'right', delay: 300})
-pageTransition.reveal('.projects__footer', {origin: 'bottom', delay: 350})
+pageTransition.reveal('.projects__footer', {origin: 'bottom', delay: 280})
 
 pageTransition.reveal('.techs__header h2', {origin: 'right'})
 pageTransition.reveal('.techs__header p', {origin: 'left'})
 
-pageTransition.reveal('.one', {origin: 'left', delay: 1000})
-pageTransition.reveal('.two', {origin: 'top', delay: 1300})
-pageTransition.reveal('.three', {origin: 'right', delay: 1500})
-pageTransition.reveal('.four', {origin: 'left', delay: 1700})
-pageTransition.reveal('.five', {origin: 'bottom', delay: 1800})
-pageTransition.reveal('.six', {origin: 'right', delay: 1700})
+pageTransition.reveal('.one', {origin: 'left'})
+pageTransition.reveal('.two', {origin: 'top'})
+pageTransition.reveal('.three', {origin: 'right'})
+pageTransition.reveal('.four', {origin: 'left'})
+pageTransition.reveal('.five', {origin: 'bottom'})
+pageTransition.reveal('.six', {origin: 'right'})
 
 
 
