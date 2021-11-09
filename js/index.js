@@ -56,8 +56,8 @@ pageTransition.reveal('.one', {origin: 'left', delay: 1000})
 pageTransition.reveal('.two', {origin: 'top', delay: 1300})
 pageTransition.reveal('.three', {origin: 'right', delay: 1500})
 pageTransition.reveal('.four', {origin: 'left', delay: 1700})
-pageTransition.reveal('.five', {origin: 'bottom', delay: 2000})
-pageTransition.reveal('.six', {origin: 'right', delay: 1700})
+pageTransition.reveal('.five', {origin: 'bottom', delay: 1800})
+pageTransition.reveal('.six', {origin: 'right', delay: 1900})
 
 
 
