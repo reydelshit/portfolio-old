@@ -31,7 +31,7 @@ darkMode.addEventListener('click', (y) => {
 const pageTransition = ScrollReveal({
 
     origin: 'top',
-    distance: '60px',
+    distance: '50px',
     duration : '2500',
     delay: 400,
     // reset: true
@@ -57,7 +57,7 @@ pageTransition.reveal('.two', {origin: 'top', delay: 1300})
 pageTransition.reveal('.three', {origin: 'right', delay: 1500})
 pageTransition.reveal('.four', {origin: 'left', delay: 1700})
 pageTransition.reveal('.five', {origin: 'bottom', delay: 1800})
-pageTransition.reveal('.six', {origin: 'right', delay: 1900})
+pageTransition.reveal('.six', {origin: 'right', delay: 1700})
 
 
 
