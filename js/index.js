@@ -57,7 +57,7 @@ pageTransition.reveal('.two', {origin: 'top'})
 pageTransition.reveal('.three', {origin: 'right'})
 pageTransition.reveal('.four', {origin: 'left'})
 pageTransition.reveal('.five', {origin: 'bottom'})
-pageTransition.reveal('.six', {origin: 'top'})
+pageTransition.reveal('.six', {origin: 'bottom'})
 
 
 
