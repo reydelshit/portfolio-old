@@ -1,17 +1,5 @@
 @import url('style.css');
 
-:root{
-    --main-font-poppins345: 'Poppins', sans-serif;
-    --main-color: hsla(32, 100%, 45%, 1);
-    --textColor: hsla(0, 0%, 0%, 0.9);
-    --DefaultColor: hsla(173, 96%, 100%, 0.9);
-    --navBG: hsla(32, 100%, 77%, 1);
-    --box-shadow-color: hsla(173, 96%, 100%, 0.9);
-
-    --items-color: rgb(255, 255, 255);
-}
-
-
 .projects{
 
     display: flex;
@@ -56,33 +44,12 @@
 
 }
 
-
-/* .viewBTN{
-    z-index: 1;
-}
-
-.viewBTN.view::before{
-
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    content: '';
-    width: 100%;
-    background: url('/css/ass/calculator-project.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    opacity: 1;
-} */
-
-
 @media screen and (max-width: 900px){
     
     .projects{
 
         height: 800px;
-    }
+    }   
     .projects__header {
         text-align: start;
     }
@@ -144,7 +111,7 @@
 
 .lang__sepator{
 
-    color: var(--textColor);
+    color: var(--text-color);
 }
 
 .item__btn{
@@ -167,7 +134,7 @@
 
     font-family: var(--main-font-poppins345);
     font-weight: 500;
-    color: var(--textColor);
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -201,7 +168,7 @@
 .projects__footer__github {
 
     text-decoration: none;
-    color: var(--textColor);
+    color: var(--text-color);
     font-family: var(--main-font-poppins345);
     font-weight: 500;
     border-bottom: 2px solid var(--main-color);

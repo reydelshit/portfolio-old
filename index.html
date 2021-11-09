@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/projects.css">
     <link rel="stylesheet" href="./css/techs.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <script defer src="./js/index.js"></script>
     <script src="https://kit.fontawesome.com/b010a16153.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
@@ -16,14 +17,6 @@
     <main>
       <header>
         <nav class="navigation">
-          <button class="ham" id="ham">
-            <i class="fa fa-bars"></i>
-          </button>
-          <span class="header__title">Portfolio</span>
-          <ul id="yoww" class="yow">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-          </ul>
             <input type="checkbox" class="switch" id="switch__dark" />
         </nav>
       </header>
@@ -194,6 +187,31 @@
         </div>
       </div>
     </div>
+    <div class="seperator"></div>
+    <div class="contact__form">
+      <div class="contact__container">
+        <div class="contact__header">
+          <h2>Let's talk</h2>
+          <p>Have a question? or Just want to say hi?</p>
+        </div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Snail Man">
+        <label for="email">Email</label>
+        <input type="email" placeholder="snail@something.com">
+        <label for="message">Message</label>
+        <textarea name="message" placeholder="Your question, feedback or message goes here"></textarea>
+        <div class="submit__btn">
+          <button>Submit</button>
+        </div>
+        <span class="projects__footer">or just contact me directly at <span><a href="mailto:reydel321@gmail.com" target="_blank" class="projects__footer__github">reydel@snail.com</a></span></span>
+      </div>
+    </div>
+    <div class="seperator"></div>
+    <footer>
+      <div class="footer__container">
+        <span>© Reydel Ocon 2021</span>
+      </div>
+    </footer>
     <script src="./js/min/scrollreveal.min.js"></script>
   </body>
 </html>

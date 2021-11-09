@@ -3,9 +3,8 @@
 :root{
     --main-font-poppins345: 'Poppins', sans-serif;
     --main-color: hsla(32, 100%, 45%, 1);
-    --textColor: hsla(0, 0%, 0%, 0.9);
+    --text-color: hsla(0, 0%, 0%, 0.9);
     --DefaultColor: hsla(173, 96%, 100%, 0.9);
-    --navBG: hsla(32, 100%, 77%, 1);
 
 
     --items-color: rgba(223, 220, 220, 0.52);
@@ -20,9 +19,8 @@
 body {
     
     background: var(--DefaultColor);
-    /* background: rgba(223, 220, 220, 0.52); */
     background-attachment: fixed;
-    color: var(--textColor);
+    color: var(--text-color);
     min-height: 100vh;
     font-family: var(--main-font-poppins345);
     overflow-x: hidden;
@@ -37,84 +35,19 @@ nav {
     width: 100%;
     padding: 0 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
 
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    width: 15rem;
-    padding: 0 2rem;
-    font-weight: 400;
-    font-size: 1rem;
-    list-style-type: none;
-
-}
-
-.yow a{  
-    
-    font-size: 1rem;
-    color: var(--textColor);
-    text-decoration: none;
-    width: 5rem;
-    padding: 0.2em 0;
-    text-align: center;
-    position: relative;
-}
-
-.yow a::after{
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: var(--main-color);
-    transform: scale(0, 1);
-    transition: transform 0.2s ease-in;
-
-}
-
-.yow a:hover::after{
-
-    transform: scale(1, 1);
-}
-
-
-a:focus{
-
-    border-bottom: 1px solid var(--main-color);
-
-}
-
-.ham{
-
-    display: none;
-}
-
-.header__title{
-
-    display: none;
-
-}
-
-nav .fa{
-
-    cursor: pointer;
-    font-size: 1.5em;
-}
-
 /*dark mode */
+
 body.darkmode{
 
     background: #22272e;
     
     --items-color: #22272e;
-    --textColor: hsla(0, 0%, 99%, 0.9);
-    --navBG: hsla(32, 100%, 45%, 1);
+    --text-color: hsla(0, 0%, 99%, 0.9);
 }
 
 
@@ -153,54 +86,6 @@ input[type="checkbox"].switch:checked{
 
 }
 
-
-@media screen and (max-width: 995px){
-    
-    nav{
-        padding: 0 2rem;
-    }
-
-    .ham {
-
-        display: block;
-        border: none;
-        background: transparent;
-        color: var(--main-color);
-        cursor: pointer;
-
-    }
-
-    .yow {
-
-        display: none;
-    }
-
-    a{
-        position: unset;
-    }
-    a:focus{
-        border-bottom: 3px solid hsla(23, 35%, 100%, 0.52);
-    }
-
-    .header__title{
-        display: block;
-    }
-
-    .yow.show {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--navBG);
-        height: 6rem;
-        width: 100%;
-
-        position: absolute;
-        top: 60px;
-        left: 0;
-
-    }
-}
 
 /*=====================================*/
 
@@ -279,7 +164,7 @@ p {
 
 .icons__yow a{
 
-    color: var(--textColor);
+    color: var(--text-color);
     font-size: 2em;
     padding: 0;
     text-align: start;
@@ -361,4 +246,13 @@ p {
     }
 
     
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--items-color);
 }

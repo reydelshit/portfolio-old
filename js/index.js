@@ -1,9 +1,9 @@
-const mobNav = document.getElementById('ham')
-const navContainer = document.getElementById('yoww')
+// const mobNav = document.getElementById('ham')
+// const navContainer = document.getElementById('yoww')
 
-mobNav.addEventListener('click', () => {
-    navContainer.classList.toggle('show');
-});
+// mobNav.addEventListener('click', () => {
+//     navContainer.classList.toggle('show');
+// });
 
 
 const darkMode = document.querySelector('#switch__dark')
