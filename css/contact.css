@@ -11,7 +11,7 @@
 .contact__container{
 
     width: 30rem;
-    height: 35rem;
+    height: 40rem;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@
 .contact__container input{
 
     width: 100%;
-    height: 7rem;
+    height: 4rem;
     border-radius: 2px;
     border: 1px solid var(--main-color);
     margin-bottom: 1rem;
@@ -112,4 +112,17 @@ textarea:focus{
 
     box-shadow: inset 10rem 0 0 var(--main-color);
 } 
+
+/* @media screen and (max-width: 995px){
+
+    
+    .contact__container input{
+
+        height: 15rem;
+    }
+
+    textarea{
+        height: 100rem;
+    }
+} */
 
