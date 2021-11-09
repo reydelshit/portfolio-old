@@ -21,7 +21,6 @@ body {
     
     background: var(--DefaultColor);
     /* background: rgba(223, 220, 220, 0.52); */
-    width: 100vw;
     background-attachment: fixed;
     color: var(--textColor);
     min-height: 100vh;
