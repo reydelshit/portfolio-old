@@ -101,6 +101,7 @@ textarea:focus{
     font-size: 0.8rem;
     font-family: var(--main-font-poppins345);
     font-weight: 400;
+    color: var(--text-color);
     border-radius: 5px;
     background: transparent;
     cursor: pointer;
