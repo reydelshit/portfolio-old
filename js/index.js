@@ -44,9 +44,9 @@ pageTransition.reveal('.description', {origin: 'left', delay: 2600})
 pageTransition.reveal('.icons__yow', {origin: 'right', delay: 2700})
 pageTransition.reveal('.image__container', {origin: 'right', delay: 3200})
 
-pageTransition.reveal('.projects__header', {origin: 'top'})
-pageTransition.reveal('.project__item1', {origin: 'left', distance: '500px'})
-pageTransition.reveal('.project__item2', {origin: 'right', distance: '500px'})
+pageTransition.reveal('.projects__header', {origin: 'top', delay: 100})
+pageTransition.reveal('.project__item1', {origin: 'left',  delay: 300, distance: '500px'})
+pageTransition.reveal('.project__item2', {origin: 'right', delay: 300, distance: '500px'})
 pageTransition.reveal('.projects__footer', {origin: 'bottom', distance: '20px'})
 
 pageTransition.reveal('.techs__header h2', {origin: 'right', distance: '200px'})
