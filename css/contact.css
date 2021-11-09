@@ -113,16 +113,17 @@ textarea:focus{
     box-shadow: inset 10rem 0 0 var(--main-color);
 } 
 
-/* @media screen and (max-width: 995px){
+@media screen and (max-width: 995px){
 
     
-    .contact__container input{
+    .contact__container span{
 
-        height: 15rem;
-    }
+        font-size: 0.8rem;
 
-    textarea{
-        height: 100rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-} */
+}
 
