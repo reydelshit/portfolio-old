@@ -47,7 +47,7 @@ pageTransition.reveal('.image__container', {origin: 'right', delay: 3200})
 pageTransition.reveal('.projects__header', {origin: 'top', delay: 100})
 pageTransition.reveal('.project__item1', {origin: 'left',  delay: 300})
 pageTransition.reveal('.project__item2', {origin: 'right', delay: 300})
-pageTransition.reveal('.projects__footer', {origin: 'bottom', distance: '20px'})
+pageTransition.reveal('.projects__footer', {origin: 'bottom', delay: 350})
 
 pageTransition.reveal('.techs__header h2', {origin: 'right'})
 pageTransition.reveal('.techs__header p', {origin: 'left'})
