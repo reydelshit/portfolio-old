@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -28,21 +29,30 @@ body {
     position: relative;
 }
 
-/* body::after{
+body::after{
 
-    display: flex;
-    align-items: center;
-    font-family: var(--main-font-poppins345);
-    font-weight: 500;
-    content: 'Portfolio';
-    font-size: 20rem;
+    content: '';
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);    
     position: absolute;
-    z-index: -1;
     top: 0;
     width: 100%;
-    height: 100vh;
-    /* background-color: violet; 
-} */
+    height: 0.5rem;
+
+}
+
+body::before{
+
+    content: '';
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.5rem;
+    height: 100%;
+
+}
 
 /* header styles */
 
@@ -279,4 +289,25 @@ footer{
     align-items: center;
     justify-content: center;
     background: var(--items-color);
+}
+
+
+/* webkit for scrolls chrome */
+
+html::-webkit-scrollbar{
+
+    width: 0.6vw;
+}
+
+html::-webkit-scrollbar-track{
+
+    background: var(--items-color);
+}
+
+html::-webkit-scrollbar-thumb{ 
+
+    border-radius: 8px;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%); 
+    
 }
