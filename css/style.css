@@ -18,14 +18,31 @@
 
 body {
     
-    background: var(--DefaultColor);
     background-attachment: fixed;
     color: var(--text-color);
     min-height: 100vh;
     font-family: var(--main-font-poppins345);
     overflow-x: hidden;
     transition: all 0.4s ease-in-out;
+
+    position: relative;
 }
+
+/* body::after{
+
+    display: flex;
+    align-items: center;
+    font-family: var(--main-font-poppins345);
+    font-weight: 500;
+    content: 'Portfolio';
+    font-size: 20rem;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: violet; 
+} */
 
 /* header styles */
 
@@ -177,14 +194,21 @@ p {
     color: var(--main-color);
 }
 
+/* .image__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    height: 700px;
+}
 
 .image__container img{
 
-    margin-top: -10rem;
-    width: 100%;
-    background-attachment: fixed;
+    margin-top: -15rem;
+    width: 75%;
+    height: 40rem;
     transition: width ease-in 0.3s;
-}
+} */
 
 .seperator{
 
