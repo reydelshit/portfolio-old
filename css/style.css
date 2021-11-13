@@ -293,6 +293,10 @@ footer{
 
 
 /* webkit for scrolls chrome */
+html{
+    scrollbar-width: thin;
+    scrollbar-color: hsla(32, 100%, 45%, 1) rgba(173, 172, 172, 0.52);
+}
 
 html::-webkit-scrollbar{
 
@@ -301,7 +305,9 @@ html::-webkit-scrollbar{
 
 html::-webkit-scrollbar-track{
 
-    background: var(--items-color);
+    background: rgba(173, 172, 172, 0.52);
+    border-radius: 8px;
+    margin-block: 0.5rem;
 }
 
 html::-webkit-scrollbar-thumb{ 
